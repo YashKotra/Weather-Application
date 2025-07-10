@@ -1,0 +1,30 @@
+/* InfoBox.css */
+
+.InfoBox {
+  width: 100%;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.InfoBox h1 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* CardContainer must stretch full width */
+.CardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Optional: Make card fill container */
+.CardContainer .MuiCard-root {
+  width: 100%;
+}

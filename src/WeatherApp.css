@@ -1,0 +1,23 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+}
+
+.AppHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.AppHeader h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+}
